@@ -3,6 +3,7 @@
 	font-size: 1.1em;
   font-variation-settings: "wdth" 0.7, "wght" 0.5;
   letter-spacing: -1px;
+  transition: 2s font-variation-settings linear;
 }
 	@media only screen and (min-width: 35em) {
     .varfonts p {
@@ -26,7 +27,7 @@
 	line-height: 0.9em; 
 	float: left; 
 	padding-right: 0.1em; 
-	
+  transition: 2s font-variation-settings linear;
 }
 	@media only screen and (min-width: 35em) {
     .varfonts .article-detail.initial p:first-of-type:first-letter {
@@ -59,9 +60,18 @@
 .varfonts h1 {
 	font-family: skia;
 	font-weight: normal;
-  font-variation-settings: "wdth" 0.95, "wght" 1.95;
+  font-variation-settings: "wdth" 0.65, "wght" 0.5;
   letter-spacing: -0.015em;
+  transition: 2s font-variation-settings linear;
 }
+	@media only screen and (min-width: 41.25em) {
+    .varfonts h1 {
+      font-size: 3em;
+			font-variation-settings: "wdth" 1, "wght" 1.15;
+			letter-spacing: 0.15em;
+		}
+	}
+
 	@media only screen and (min-width: 56.25em) {
     .varfonts h1 {
       font-size: 3em;
@@ -98,6 +108,7 @@
 
 .varfonts .section-name.sport {
 	font-size: 33.85vw;
+  transition: 2s font-size;
 }
 	@media only screen and (min-width: 43.75em) {
     .varfonts .section-name.sport {
