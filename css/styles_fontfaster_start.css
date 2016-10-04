@@ -39,7 +39,7 @@ Gray: #494949;
 Fonts: 
 
 Serif: Georgia, "New Times Roman", serif;
-Sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+Sans-serif: "Roboto", "New Times Roman", Arial, sans-serif;
 
 
 */
@@ -61,34 +61,34 @@ th,
 td, 
 ul, 
 li {
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: "Roboto", "New Times Roman", Arial, sans-serif;
 }
 
 h1 {
 	color: #35475B;
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: "Roboto", "New Times Roman", Arial, sans-serif;
 	font-size: 3em;
 	font-weight: 900;
 }
 
 h2 {
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: "Roboto", "New Times Roman", Arial, sans-serif;
 }
 
 h3 {
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: "Roboto", "New Times Roman", Arial, sans-serif;
 }
 
 h4 {
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: "Roboto", "New Times Roman", Arial, sans-serif;
 }
 
 h5 {
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: "Roboto", "New Times Roman", Arial, sans-serif;
 }
 
 h6 {
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: "Roboto", "New Times Roman", Arial, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -138,21 +138,10 @@ p {
     -ms-hyphens: auto;
         hyphens: auto;
 }
-.wf-inactive p {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 0.975em;
-	letter-spacing: -0.4px;
-	line-height: 1.5;
-}
 	@media only screen and (min-width: 81.25em) {
 	    p {
 		    font-size: 1.125em;
 		    line-height: 1.5;
-		}
-	    .wf-inactive p {
-		    font-size: 1.095em;
-		    letter-spacing: -0.4px;
-		    line-height: 1.55;
 		}
 	}
 
@@ -162,22 +151,10 @@ h1 {
 	margin-top: 0.5em;
 	margin-bottom: 0.25em;
 }
-.wf-inactive h1 {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 2em;
-	font-weight: bold;
-	line-height: 1.25
-}
 	@media only screen and (min-width: 25em) {
     h1 {
 	    font-size: 2.25em;
 	    line-height: 1.25;
-		}
-		.wf-inactive h1 {
-			font-size: 2em;
-			line-height: 1.25; 
-			letter-spacing: -1px;
-			margin-top: 0.65em;
 		}
 	}
 	
@@ -186,10 +163,6 @@ h1 {
 	    font-size: 2.5em;
 	    line-height: 1.125;
 		}
-		.wf-inactive h1 {
-			font-size: 2.4em;
-			margin-top: 0.5em;
-		}
 	}
 	
 	@media only screen and (min-width: 56.25em) {
@@ -197,10 +170,6 @@ h1 {
     	font-size: 3em;
 	    line-height: 1.125;
     }
-		.wf-inactive h1 {
-			font-size: 2.9em;
-			margin-top: 0.45em;
-		}
 	}
 	
 	@media only screen and (min-width: 81.25em) {
@@ -208,12 +177,6 @@ h1 {
     	font-size: 4em;
 	    line-height: 1.125;
     }
-		.wf-inactive h1 {
-			font-size: 3.9em;
-			letter-spacing: 0;
-			line-height: 1.15;
-			margin-top: 0.45em;
-		}
 	}
 
 h2 {
@@ -222,21 +185,10 @@ h2 {
 	margin-top: 0.5em;
 	margin-bottom: 0.125em;
 }
-.wf-inactive h2 {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 1.625em;
-	line-height: 1.125; 
-	letter-spacing: -1px;
-	margin-top: 0.5em;
-}
 	@media only screen and (min-width: 25em) {
 	    h2 {
 		    font-size: 1.75em;
 		    line-height: 1.125;
-			}
-			.wf-inactive h2 {
-				font-size: 1.75em;
-				line-height: 1.125; 
 			}
 	}
 	
@@ -246,10 +198,6 @@ h2 {
 		    line-height: 1.125;
 		    max-width: 21.5em; /* 43/2 */
 			}
-			.wf-inactive h2 {
-				font-size: 2em;
-				line-height: 1.125; 
-			}
 	}
 	
 	@media only screen and (min-width: 56.25em) {
@@ -258,10 +206,6 @@ h2 {
 		    line-height: 1.125;
 		    max-width: 19.11111111111111em; /* 43/2.25 */
 	    }
-			.wf-inactive h2 {
-				font-size: 2.25em;
-				line-height: 1.125; 
-			}
 	}
 	
 	@media only screen and (min-width: 81.25em) {
@@ -270,10 +214,6 @@ h2 {
 		    line-height: 1.125;
 		    max-width: 19.35em; /* 43/2.5*1.125 */
 	    }
-			.wf-inactive h2 {
-				font-size: 2.5em;
-				line-height: 1.125; 
-			}
 	}
 
 h3 {
@@ -558,7 +498,7 @@ input[type="password"],
 textarea {
 	border: solid 1px #a1a1a1;
 	border-radius: 0.15em;
-	font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+	font-family: "Fira Sans", "New Times Roman", Arial, sans-serif;
 	font-size: 1.125em;
 	padding: 0.35em;
 	width: 100%;
@@ -566,7 +506,7 @@ textarea {
 
 /* web fonts don't work nicely in password fields in Safari */
 input[type="password"] {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "New Times Roman", Arial, sans-serif;
 }
 
 input[type="radio"]+label {
@@ -591,7 +531,7 @@ input[type="submit"] {
 	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
 	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
 	color: #ffffff;
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: "Roboto", "New Times Roman", Arial, sans-serif;
 	font-size: 1.25em;
 	padding: 0.35em 0.75em;
 }
@@ -625,25 +565,16 @@ input[type="submit"] {
 
 .branding h1 {
 	color: #ffffff;
-	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+	font-family: "Roboto Condensed", "New Times Roman", Arial, sans-serif;
 	font-weight: 200;
 	font-size: 3em;
 	margin: 0.5em 0 0 0;
-}
-.wf-inactive .branding h1 {
-	font-family: Georgia, serif;
-	font-size: 2.25em;
-	margin: 0.95em 0 0 0;
 }
 	@media only screen and (min-width: 43.75em) {
 	    .branding h1 {
    			font-size: 4em;
    			margin-top: 0;
 	    }
-			.wf-inactive .branding h1 {
-				font-size: 3em;
-				margin: 0.35em 0 0 0;
-			}
 	}
 .branding h1 a:link, 
 .branding h1 a:visited {
@@ -715,7 +646,7 @@ body:before {
 	border-radius: 0.2em;
 	display: block;
 	float: right;
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: "Roboto", "New Times Roman", Arial, sans-serif;
 	font-weight: normal;
 	margin-top: -2.25em;
 	padding: 0.2em 0.35em;
@@ -867,7 +798,7 @@ body:before {
 .menu-item > a {
 	color: #ffffff;
 	display: block;
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: "Roboto", "New Times Roman", Arial, sans-serif;
 	font-size: 1em;
 	font-weight: 500;
 	padding: 0.75em 1em 0.65em 1em; 
@@ -883,10 +814,6 @@ body:before {
 	*display: inline;
 	*vertical-align: auto;
 }
-.wf-inactive .menu-item > a { 
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 0.97em;
-}
 
 	@media only screen and (min-width: 43.75em) {
 	  .menu-item > a {
@@ -897,9 +824,6 @@ body:before {
 			padding: 0.25em 1em 0.15em 1em; 
 			text-align: center;
 	  }
-		.wf-inactive .menu-item > a { 
-			font-size: 1.21em;
-		}
 	}
 
 
@@ -1009,7 +933,7 @@ body:before {
 	border: 0;
 	box-shadow: none;
 	color: #ffffff;
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: "Roboto", "New Times Roman", Arial, sans-serif;
 	font-weight: normal; 
 	margin: 0.25em;
 	padding: 0.1em;
@@ -1157,7 +1081,7 @@ body:before {
 	}
 
 .footer-contact p {
-	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+	font-family: "Roboto Condensed", "New Times Roman", Arial, sans-serif;
 }
 
 .footer-contact .name {
@@ -1170,7 +1094,7 @@ body:before {
 }
 
 .footer-contact .name {
-	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+	font-family: "Roboto Condensed", "New Times Roman", Arial, sans-serif;
 	font-size: 2em;
 	font-weight: 900;
 }
@@ -1191,7 +1115,7 @@ body:before {
 	padding: 0;
 }
 .nav-footer a {
-	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+	font-family: "Roboto Condensed", "New Times Roman", Arial, sans-serif;
 	font-size: 1.25em;
 	line-height: 1.5; 
 }
@@ -1285,7 +1209,7 @@ blockquote {
 	margin: 0 auto 1em auto; 
 	font-size: 2em; 
 	line-height: 1.4em; 
-	font-family: "Roboto", Helvetica, Arial, sans-serif; 
+	font-family: "Roboto", "New Times Roman", Arial, sans-serif; 
 	font-style: normal; 
 	font-weight: 100;
 	position: relative;
@@ -1360,7 +1284,7 @@ blockquote:after {
 /* Initial Cap styles */
 .article-detail.initial p:first-of-type:first-letter {
 	font-size: 4em; 
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: "Roboto", "New Times Roman", Arial, sans-serif;
 	font-weight: 900;
 	line-height: 0.9em; 
 	float: left; 
@@ -1370,7 +1294,7 @@ blockquote:after {
 
 .lt-ie9 .article-detail.initial footer + p:first-letter {
   font-size: 4em; 
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "New Times Roman", Arial, sans-serif;
   font-weight: 900;
 	line-height: 0.9em; 
 	float: left; 

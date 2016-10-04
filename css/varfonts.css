@@ -84,6 +84,7 @@
 	@media only screen and (min-width: 81.25em) {
     .varfonts h2 {
       font-size: 2.65em;
+      max-width: 20.35em;
 		}
 	}
 
@@ -113,3 +114,12 @@
       font-size: 24.15vw;
 		}
 	}
+
+.varfonts blockquote, 
+.varfonts .footer-contact .name, 
+.varfonts .nav-footer a, 
+.varfonts .footer-social-links a,
+.varfonts .menu-item a, 
+.varfonts .nav-menu-toggle {
+	font-family: skia;
+}

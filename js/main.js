@@ -33,7 +33,7 @@ wt.fix({
 
 wt.fix({
 	elements: 'h1',
-	chars: 6,
+	chars: 8,
 	method: 'nbsp',
 	event: 'resize'
 });
