@@ -1392,9 +1392,10 @@ p.first-line:first-line {
 }
 
 .font-notes {
-	float: left;
+	float: right;
 	padding-bottom: 2em;
-	width: 35vw;
+	width: 34vw;
+	padding-left: 2vw;
 }
 
 .font-notes .download-amount {

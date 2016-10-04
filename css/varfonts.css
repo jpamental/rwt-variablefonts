@@ -120,6 +120,25 @@
 .varfonts .nav-footer a, 
 .varfonts .footer-social-links a,
 .varfonts .menu-item a, 
-.varfonts .nav-menu-toggle {
+.varfonts .nav-menu-toggle, 
+.varfonts .font-notes {
 	font-family: skia;
+}
+
+.varfonts .font-notes {
+	width: 32vw;
+	padding-left: 1vw;
+}
+.varfonts .download-amount {
+	font-variation-settings: "wdth" 1.95, "wght" 0.5;
+}
+
+.varfonts .download-amount em {
+	font-variation-settings: "wdth" 1, "wght" 1;
+
+}
+
+.requirements {
+	max-width: none;
+	text-align: right;
 }
