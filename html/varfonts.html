@@ -1,0 +1,135 @@
+
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js varfonts" lang="en"> <!--<![endif]-->
+    <head>
+
+		<title>Variable font and the future of web design</title>
+		
+		<link rel="dns-prefetch" href="//ajax.googleapis.com">
+		<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+
+		<!-- meta -->
+		<meta charset="utf-8">
+    <meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta http-equiv="cleartype" content="on">
+
+		<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/normalize.min.css">
+    <link rel="stylesheet" href="../css/setup.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/webfonts.css">
+    <link rel="stylesheet" href="../css/varfonts.css">
+		<!--[if lt IE 9]>
+			<script src="../js/vendor/respond.min.js"></script>
+		<![endif]-->
+    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+        
+    </head>
+    <body>
+        <!-- Add your site or application content here -->
+        <header role="banner" class="banner clearfix" id="banner">
+	        <div class="section-content">
+		        <div class="branding clearfix">
+			        <h1 class="paper-name"><a href="index.html" title="Return to Home Page">Variable Fonts</a></h1>
+		        </div>
+	        </div>
+        </header>
+		<nav role="navigation" class="nav clearfix main-nav" id="nav">
+			<a href="#nav" aria-controls="nav" class="nav-menu-toggle control" id="menu-toggle">Menu</a>
+			<div class="main-nav-inner">
+				<ul class="nav-menu">
+					<li class="menu-item"><a href="index.html">Font Overload</a></li>
+					<li class="menu-item"><a href="varfonts.html"><em>Variable Font</em> Demo</a></li>
+				</ul><!--/.nav-menu-->
+			</div>
+		</nav>
+
+
+        <main class="content-area clearfix">
+	        <div class="section-content border-top">
+		        <article class="article-detail initial">
+			        <header>
+				        <h1>Variable fonts <em>&amp;</em> the future of web design</h1>
+								
+			        </header>
+			        <footer class="byline">
+				        <span itemprop="name">Jason Pamental</span>
+				        | <time itemprop="datePublished" datetime="2016-10-02T12:00:15-0400" data-timestamp="1473678015000">
+Tuesday 02 October 2016 <span class="dateline-time">12.00&nbsp;EDT</span>
+</time>
+			        </footer>
+			        
+								<h2>Our state of affairs</h2>
+								<p class="first-line">The current state of design on the web is stalled. We made a huge leap forward with the widespread availability of web fonts starting in 2009, and then were confronted with the advent of responsive design just a year or two later. While many interesting things have come from that evolution, we’ve also struggled with coming to grips with the complexity of designing for infinite screen sizes whilst being equally concerned with performance. Contending with ever-shortening attention spans (<a href="https://www.doubleclickbygoogle.com/articles/mobile-speed-matters/">Google research gives you about 3 seconds</a> before you lose half your audience) we’ve had to constrain our typographic systems to just a few fonts to keep the impact on load time to a minimum.</p>
+								
+								<p>These constraints have forced us as designers to make compromises when considering type size, line length, and overall visual hierarchy and differentiation. Considering things like a narrower font on smaller screens to achieve a slightly longer line length without sacrificing size. Or utilizing ultra-thin or ultra-heavy weights for added emphasis and variety of expression—all luxuries we can’t embrace due to the burden it would place on site visitors—particularly those on shaky wireless connections.</p>
+								
+								<p>Evolutions in layout systems for the web like Flexbox and Grid are coming along, but with only incremental improvements in compression of font formats, we're left wanting for more freedom of expression through greater variety of type. This page has been designed purposely with every weight of Roboto and Roboto Condensed available through Google Web Fonts. The goal is to showcase the variety of typographic expression that can be achieved with only width, variant, and weight.</p>
+								
+								<h2>A sea-change on the horizon</h2>
+								<p>On September 14th, 2016, at the ATypI conference in Warsaw a curious collection of representatives from Adobe, Apple, Google and Microsoft took the stage to announce the new evolution of font format known as OpenType 1.8. With that came the demonstration of central showpiece of the release: <em>variable fonts</em>. There was much rejoicing, and no small amount of jaw-dropping and applause. While this is undoubtedly a huge thing for type and type design, the implications for the web are only just beginning to be understood.</p>
+								
+								<p><strong><em>I’m just going to say it:</em></strong></p>
+								
+								<blockquote>This may be the most significant development for design on the web <em>since responsive design itself</em></blockquote>
+								
+								<p>Allow me to elaborate. Type is the voice of your words. If we can only use a limited set of weights and widths, we have a limited range of that voice. So our ability to modulate that voice is extremely curtailed. The power of typographic range is multiplied when we can expand that range from 3 or 5 or 6 fonts to 10 or 15 or more, and that range is what amplifies our message. With that, even a static design can achieve much greater differentiation of hierarchy and contrast. Extend that to responsive designs and it’s even more significant.</p>
+								
+								<p>With the ability to respond to device capabilities via media queries, our ability to match typography choices to device context is finally a reality. We can tailor the width and height of characters for greater legibility and readability on every screen. Lower pixel density? <em>Increase size and x-height</em>. Higher pixel density displays like the iPhone can get a more refined scale, perhaps a bit narrower for slightly longer line lengths. Headings can scale down a bit and get narrower for even better word wrap on small screens. <strong>All without requiring an additional asset</strong>.</p>
+								
+								<p>I’ll be honest: it’s not really figured out all the way yet. We won’t know for a little while exactly how well we can do with file compression given all the additional data that will be included. But even if a single variable font file is several times the 20-30k of a single weight it won’t be any _worse_ from a performance perspective, and the design possibilities are exponentially greater. And performance improvements in compression only get better, so even that’s a shorter term issue.</p>
+								
+								<p>So let’s give this a try. Weigh in on the evolution of the specification on GitHub (I promise, it’s basically a message board and not that difficult to navigate). Get to know the demos (this is one of them!) and we can get back to designing, not just making squishy boxes.</p>
+
+		        </article>
+	        </div><!--/.section-content-->
+        </main>
+        <footer id="footer" class="footer clearfix" role="contentinfo">
+	        <div class="section-content">
+	        	<div class="footer-contact h-card">
+		        	<p class="name p-name"><em>Variable Fonts</em> Demo</p>
+		        	<p>Content &copy;2016 Jason Pamental</p>
+		        	<p><a href="#top" class="top-link">&raquo; Top of Page</a></p>
+	        	</div>
+				<nav id="nav-footer" class="nav-footer" role="navigation">
+					<ul>
+						<li><a href="index.html">Font Overload</a></li>
+						<li><a href="varfonts.html"><em>Variable Font</em> Demo</a></li>
+					</ul>
+				</nav><!--/.nav-footer-->
+				<div class="footer-social-links">
+					<ul>
+						<li><a href="http://www.linkedin.com/in/jpamental"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
+						<li><a href="https://twitter.com/jpamental"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+						<li><a href="http://github.com/jpamental"><i class="fa fa-github-square"></i> Github</a></li>
+						<li><a href="http://instagram.com/jpamental"><i class="fa fa-instagram"></i> Instagram</a></li>
+					</ul>
+				</div>
+	        </div><!--/.section-content-->
+        </footer>
+
+
+
+
+    <script src="../js/vendor/jquery-1.12.0.min.js" defer></script>
+    <script src="../js/plugins.js" defer></script>
+
+    <!-- Widowtamer -->
+    <script src="../js/vendor/widowtamer-min.js" defer></script>
+
+    <!-- classList polyfill -->
+    <script src="../js/vendor/classlist_polyfill.min.js" defer></script>
+
+    <script src="../js/main.js" defer></script>
+
+    </body>
+</html>

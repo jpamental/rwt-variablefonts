@@ -1,0 +1,115 @@
+.varfonts p {
+	font-family: skia;
+	font-size: 1.1em;
+  font-variation-settings: "wdth" 0.7, "wght" 0.5;
+  letter-spacing: -1px;
+}
+	@media only screen and (min-width: 35em) {
+    .varfonts p {
+      font-variation-settings: "wdth" 1, "wght" 1;
+      letter-spacing: 0;
+		}
+	}
+
+	@media only screen and (min-width: 81.25em) {
+    .varfonts p {
+	    font-size: 1.25em;
+      font-variation-settings: "wdth" 1, "wght" 1;
+      letter-spacing: 0;
+		}
+	}
+
+.varfonts .article-detail.initial p:first-of-type:first-letter {
+	font-size: 4em; 
+	font-family: "skia";
+  font-variation-settings: "wdth" 0.9, "wght" 1.9;
+	line-height: 0.9em; 
+	float: left; 
+	padding-right: 0.1em; 
+	
+}
+	@media only screen and (min-width: 35em) {
+    .varfonts .article-detail.initial p:first-of-type:first-letter {
+      font-variation-settings: "wdth" 1.15, "wght" 1.9;
+      padding-right: 0.35em;
+		}
+	}
+	@media only screen and (min-width: 81.25em) {
+    .varfonts .article-detail.initial p:first-of-type:first-letter {
+      font-size: 5em;
+      font-variation-settings: "wdth" 1.95, "wght" 1.99;
+      padding-right: 0.15em;
+		}
+	}
+
+.varfonts .byline {
+	
+}
+	@media only screen and (min-width: 35em) {
+    .varfonts .byline {
+      font-size: 1.3em;
+		}
+	}
+	@media only screen and (min-width: 81.25em) {
+    .varfonts .byline {
+      font-size: 1.35em;
+		}
+	}
+
+.varfonts h1 {
+	font-family: skia;
+	font-weight: normal;
+  font-variation-settings: "wdth" 0.95, "wght" 1.95;
+  letter-spacing: -0.015em;
+}
+	@media only screen and (min-width: 56.25em) {
+    .varfonts h1 {
+      font-size: 3em;
+			font-variation-settings: "wdth" 1.2, "wght" 1.75;
+			letter-spacing: 0.15em;
+		}
+	}
+
+.varfonts h2 {
+	font-family: skia;
+	font-weight: normal;
+  font-variation-settings: "wdth" 1.1, "wght" 1.35;
+  letter-spacing: 0.05em;
+}
+	@media only screen and (min-width: 56.25em) {
+    .varfonts h2 {
+      font-size: 2.45em;
+		}
+	}
+	@media only screen and (min-width: 81.25em) {
+    .varfonts h2 {
+      font-size: 2.65em;
+		}
+	}
+
+.varfonts .section-name {
+	font-family: skia;
+	font-weight: normal;
+	line-height: 0.825;
+	padding-bottom: 0.02em;
+	font-variation-settings: "wdth" 1.95, "wght" 1.95;
+}
+
+.varfonts .section-name.sport {
+	font-size: 33.85vw;
+}
+	@media only screen and (min-width: 43.75em) {
+    .varfonts .section-name.sport {
+      font-size: 25.85vw;
+		}
+	}
+	@media only screen and (min-width: 56.25em) {
+    .varfonts .section-name.sport {
+      font-size: 25.85vw;
+		}
+	}
+	@media only screen and (min-width: 81.25em) {
+    .varfonts .section-name.sport {
+      font-size: 24.15vw;
+		}
+	}
