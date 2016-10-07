@@ -2,7 +2,7 @@
 	font-family: skia;
 	font-size: 1.1em;
   font-variation-settings: "wdth" 0.7, "wght" 0.5;
-  letter-spacing: -1px;
+  letter-spacing: 0;
   transition: 2s font-variation-settings linear;
 }
 	@media only screen and (min-width: 35em) {
@@ -61,14 +61,14 @@
 	font-family: skia;
 	font-weight: normal;
   font-variation-settings: "wdth" 0.65, "wght" 0.5;
-  letter-spacing: -0.015em;
+  letter-spacing: 0;
   transition: 2s font-variation-settings linear;
 }
 	@media only screen and (min-width: 41.25em) {
     .varfonts h1 {
       font-size: 3em;
 			font-variation-settings: "wdth" 1, "wght" 1.15;
-			letter-spacing: 0.15em;
+			letter-spacing: 0;
 		}
 	}
 
@@ -76,7 +76,7 @@
     .varfonts h1 {
       font-size: 3em;
 			font-variation-settings: "wdth" 1.2, "wght" 1.75;
-			letter-spacing: 0.15em;
+			letter-spacing: 0;
 		}
 	}
 
@@ -84,7 +84,7 @@
 	font-family: skia;
 	font-weight: normal;
   font-variation-settings: "wdth" 1.1, "wght" 1.35;
-  letter-spacing: 0.05em;
+  letter-spacing: 0;
 }
 	@media only screen and (min-width: 56.25em) {
     .varfonts h2 {
