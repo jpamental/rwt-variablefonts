@@ -1,13 +1,22 @@
+@font-face {
+  font-family: 'Gingham'; 
+  src: url('../fonts/Gingham.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
 .varfonts p {
-	font-family: skia;
+	font-family: Gingham, Helvetica, Arial, sans-serif;
 	font-size: 1.1em;
-  font-variation-settings: "wdth" 0.7, "wght" 0.5;
+  font-variation-settings: "wdth" 1, "wght" 300;
   letter-spacing: 0;
   transition: 2s font-variation-settings linear;
 }
 	@media only screen and (min-width: 35em) {
     .varfonts p {
-      font-variation-settings: "wdth" 1, "wght" 1;
+      font-variation-settings: "wdth" 500, "wght" 300;
       letter-spacing: 0;
 		}
 	}
@@ -15,15 +24,15 @@
 	@media only screen and (min-width: 81.25em) {
     .varfonts p {
 	    font-size: 1.25em;
-      font-variation-settings: "wdth" 1, "wght" 1;
+      font-variation-settings: "wdth" 500, "wght" 300;
       letter-spacing: 0;
 		}
 	}
 
 .varfonts .article-detail.initial p:first-of-type:first-letter {
 	font-size: 4em; 
-	font-family: "skia";
-  font-variation-settings: "wdth" 0.9, "wght" 1.9;
+	font-family: "Gingham", Helvetica, Arial, sans-serif;
+  font-variation-settings: "wdth" 100, "wght" 900;
 	line-height: 0.9em; 
 	float: left; 
 	padding-right: 0.1em; 
@@ -31,14 +40,14 @@
 }
 	@media only screen and (min-width: 35em) {
     .varfonts .article-detail.initial p:first-of-type:first-letter {
-      font-variation-settings: "wdth" 1.15, "wght" 1.9;
-      padding-right: 0.35em;
+      font-variation-settings: "wdth" 500, "wght" 900;
+      padding-right: 0.15em;
 		}
 	}
 	@media only screen and (min-width: 81.25em) {
     .varfonts .article-detail.initial p:first-of-type:first-letter {
       font-size: 5em;
-      font-variation-settings: "wdth" 1.95, "wght" 1.99;
+      font-variation-settings: "wdth" 600, "wght" 999;
       padding-right: 0.15em;
 		}
 	}
@@ -58,16 +67,16 @@
 	}
 
 .varfonts h1 {
-	font-family: skia;
+	font-family: Gingham, Helvetica, Arial, sans-serif;
 	font-weight: normal;
-  font-variation-settings: "wdth" 0.65, "wght" 0.5;
+  font-variation-settings: "wdth" 200, "wght" 100;
   letter-spacing: 0;
   transition: 2s font-variation-settings linear;
 }
 	@media only screen and (min-width: 41.25em) {
     .varfonts h1 {
       font-size: 3em;
-			font-variation-settings: "wdth" 1, "wght" 1.15;
+			font-variation-settings: "wdth" 400, "wght" 300;
 			letter-spacing: 0;
 		}
 	}
@@ -75,15 +84,15 @@
 	@media only screen and (min-width: 56.25em) {
     .varfonts h1 {
       font-size: 3em;
-			font-variation-settings: "wdth" 1.2, "wght" 1.75;
+			font-variation-settings: "wdth" 900, "wght" 999;
 			letter-spacing: 0;
 		}
 	}
 
 .varfonts h2 {
-	font-family: skia;
+	font-family: Gingham, Helvetica, Arial, sans-serif;
 	font-weight: normal;
-  font-variation-settings: "wdth" 1.1, "wght" 1.35;
+  font-variation-settings: "wdth" 500, "wght" 600;
   letter-spacing: 0;
 }
 	@media only screen and (min-width: 56.25em) {
@@ -99,11 +108,11 @@
 	}
 
 .varfonts .section-name {
-	font-family: skia;
+	font-family: Gingham, Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	line-height: 0.825;
 	padding-bottom: 0.02em;
-	font-variation-settings: "wdth" 1.95, "wght" 1.95;
+	font-variation-settings: "wdth" 900, "wght" 999;
 }
 
 .varfonts .section-name.sport {
@@ -133,7 +142,7 @@
 .varfonts .menu-item a, 
 .varfonts .nav-menu-toggle, 
 .varfonts .font-notes {
-	font-family: skia;
+	font-family: Gingham, Helvetica, Arial, sans-serif;
 }
 
 .varfonts .font-notes {
@@ -141,11 +150,12 @@
 	padding-left: 1vw;
 }
 .varfonts .download-amount {
-	font-variation-settings: "wdth" 1.95, "wght" 0.5;
+	font-variation-settings: "wdth" 100, "wght" 100;
+	font-size: 22vw;
 }
 
 .varfonts .download-amount em {
-	font-variation-settings: "wdth" 1, "wght" 1;
+	font-variation-settings: "wdth" 500, "wght" 300;
 
 }
 
